@@ -60,7 +60,7 @@
         <snakeyaml.version>2.0</snakeyaml.version>
         <software.amazon.awssdk.s3.version>2.17.249</software.amazon.awssdk.s3.version>
         <com.amazonaws.aws-java-sdk-s3.version>1.12.278</com.amazonaws.aws-java-sdk-s3.version>
-        <com.github.ulisesbocchio.jasypt.spring.boot.starter>100.3.0.5-SNAPSHOT</com.github.ulisesbocchio.jasypt.spring.boot.starter>
+        <com.github.ulisesbocchio.jasypt.spring.boot.starter>3.0.5</com.github.ulisesbocchio.jasypt.spring.boot.starter>
         <com.github.qcloudsms.version>1.0.5</com.github.qcloudsms.version>
         <com.sun.mail.javax.mail.version>1.6.2</com.sun.mail.javax.mail.version>
         <netty-resolver-dns-native-macos.version>osx-x86_64</netty-resolver-dns-native-macos.version>
@@ -73,16 +73,16 @@
 
         <zip4j.version>2.11.5</zip4j.version>
         <jsqlparser.version>4.6</jsqlparser.version>
-        <commons-net.version>100.3.10.0-SNAPSHOT</commons-net.version>
+        <commons-net.version>3.10.0</commons-net.version>
         <commons-pool2.version>2.12.0</commons-pool2.version>
         <commons-collections.version>4.4</commons-collections.version>
-        <commons-compress.version>100.1.21-SNAPSHOT</commons-compress.version>
+        <commons-compress.version>1.21</commons-compress.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <commons-io.version>2.15.1</commons-io.version>
         <commons-codec.version>1.16.1</commons-codec.version>
         <commons.math3.version>3.6.1</commons.math3.version>
-        <guava.version>100.33.0.0-SNAPSHOT</guava.version>
+        <guava.version>33.0.0</guava.version>
         <json.path.version>2.9.0</json.path.version>
         <commons-csv.version>1.10.0</commons-csv.version>
 
@@ -122,8 +122,7 @@
         <aliyun-sdk.version>3.5.0</aliyun-sdk.version>
         <ali-pmd.version>2.1.1</ali-pmd.version>
         <!-- Web -->
-        <spring-web.version>100.5.3.31-SNAPSHOT</spring-web.version>
-        <spring-security-crypto.version>100.5.7.12-SNAPSHOT</spring-security-crypto.version>
+        <spring-security-crypto.version>5.7.12</spring-security-crypto.version>
         <swagger3-annotations.version>2.2.9</swagger3-annotations.version>
         <springdoc-openapi.version>1.7.0</springdoc-openapi.version>
         <tomcat.version>9.0.89</tomcat.version>
@@ -131,12 +130,12 @@
         <httpclient.version>4.5.14</httpclient.version>
 
         <!-- HACK -->
-        <seed.mybatis.version>100.3.5.5-SNAPSHOT</seed.mybatis.version>
-        <seed.h2.version>100.1.4.201-SNAPSHOT</seed.h2.version>
-        <jasypt.version>100.1.9.3-SNAPSHOT</jasypt.version>
-        <dom4j.version>100.2.1.4-SNAPSHOT</dom4j.version>
-        <hutool.version>100.5.8.27-SNAPSHOT</hutool.version>
-        <commons-beanutils.version>100.1.9.4-SNAPSHOT</commons-beanutils.version>
+        <seed.mybatis.version>3.5.5</seed.mybatis.version>
+        <seed.h2.version>1.4.201</seed.h2.version>
+        <jasypt.version>1.9.3</jasypt.version>
+        <dom4j.version>2.1.4</dom4j.version>
+        <hutool.version>5.8.27</hutool.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
 
         <!-- Repository -->
         <mybatis-plus-boot-starter.version>3.5.5</mybatis-plus-boot-starter.version>
@@ -160,7 +159,7 @@
 
         <!-- Middleware -->
         <akka.version>2.6.12</akka.version>
-        <akka-actor.version>100.2.6.12</akka-actor.version>
+        <akka-actor.version>2.6.12</akka-actor.version>
         <nacos.version>2.2.4</nacos.version>
         <!-- Cache -->
         <caffeine.version>2.9.3</caffeine.version>
@@ -196,7 +195,7 @@
         <asm.version>7.1</asm.version>
         <groovy.version>2.5.14</groovy.version>
         <kafka.version>3.2.3</kafka.version>
-        <kafka-client.version>100.3.2.3-SNAPSHOT</kafka-client.version>
+        <kafka-client.version>3.2.3</kafka-client.version>
         <okhttp3.version>4.9.3</okhttp3.version>
         <bitwalker.UserAgentUtils.version>1.21</bitwalker.UserAgentUtils.version>
         <httpasyncclient.version>4.1.4</httpasyncclient.version>
@@ -407,12 +406,12 @@
                 <version>${jsch.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.reed.boot</groupId>
                 <artifactId>jasypt</artifactId>
                 <version>${seed.jasypt.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>dom4j</artifactId>
                 <version>${seed.dom4j.version}</version>
             </dependency>
@@ -437,7 +436,7 @@
                 <version>${commons-codec.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>commons-net</artifactId>
                 <version>${seed.commons-net.version}</version>
             </dependency>
@@ -447,7 +446,7 @@
                 <version>${commons-collections.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>commons-beanutils</artifactId>
                 <version>${seed.commons-beanutils.version}</version>
             </dependency>
@@ -473,7 +472,7 @@
                 <version>${commons-lang3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${seed.commons-compress.version}</version>
             </dependency>
@@ -483,7 +482,7 @@
                 <version>${commons-pool2.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>guava</artifactId>
                 <version>${seed.guava.version}</version>
             </dependency>
@@ -498,7 +497,7 @@
                 <version>${snappy.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${seed.hutool.version}</version>
             </dependency>
@@ -585,7 +584,7 @@
                 <version>${spring.kafka.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>kafka-clients</artifactId>
                 <version>${seed.kafka-client.version}</version>
             </dependency>
@@ -699,7 +698,7 @@
             </dependency>
             <!-- Web -->
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>spring-web</artifactId>
                 <version>${seed.spring-web.version}</version>
             </dependency>
@@ -740,37 +739,37 @@
                 <version>${mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-core</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-extension</artifactId>
                 <version>${seed.mybatis.release.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-spring-boot-autoconfigure</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>mybatis-plus-annotation</artifactId>
                 <version>${seed.mybatis.version}</version>
             </dependency>
@@ -806,7 +805,7 @@
                 <version>${ojdbc8.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>h2</artifactId>
                 <version>${seed.h2.version}</version>
             </dependency>
@@ -836,7 +835,7 @@
                 <version>${sqlserver-jdbc.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.seed.boot</groupId>
+                <groupId>com.seed.arch</groupId>
                 <artifactId>akka-actor_2.13</artifactId>
                 <version>${akka-actor.version}</version>
             </dependency>
@@ -1467,7 +1466,7 @@
                                         <exclude>redis.clients:jedis</exclude>
 
                                     </excludes>
-                                    <message>Seed JAR Reference Force Check: The following third party jar is forbidden, switch jar maven groupId: com.seed.boot, PS: com.seed.boot:commons-beanutils</message>
+                                    <message>Seed JAR Reference Force Check: The following third party jar is forbidden, switch jar maven groupId: com.seed.arch, PS: com.seed.arch:commons-beanutils</message>
                                 </bannedDependencies>
                             </rules>
                         </configuration>
